@@ -1,0 +1,33 @@
+.Table {
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.FnameH, .LnameH {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.AgeH {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+.Fname, .Lname {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+  text-align: left;
+}
+
+.Age {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100px;
+  text-align: left;
+}

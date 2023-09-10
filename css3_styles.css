@@ -1,0 +1,42 @@
+.Table {
+    border-collapse: collapse;
+}
+
+.Heading {
+    background-color: #409a6a;
+    color: white;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.Gray {
+    background-color: rgb(237, 232, 232);
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.White {
+    background-color: white;
+    text-align: left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.CompanyH {  
+    padding: 10px;  
+    width: 400px;
+}
+
+.ContactH, .CountryH {
+    width: 200px;
+    padding: 10px; 
+}
+
+.Company {
+    width: 400px;
+    padding: 10px; 
+}
+
+.Contact, .Country {
+    width: 200px;
+    padding: 10px; 
+}
