@@ -1,0 +1,36 @@
+.navbar-horizontal {
+    border: 1px solid black;
+    width: 20%;
+    padding: 0;
+    position: fixed;
+}
+
+.navbar-horizontal ul {
+    list-style-type: none;
+    padding: 2px;
+}
+
+.navbar-horizontal ul li {
+    display: inline;
+}
+
+.navbar-horizontal ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar-horizontal ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-horizontal ul div:hover {
+    background-color: rgb(146, 144, 144);
+}
+
+.list-border {
+    display: inline-block;
+    background-color: rgb(223, 213, 213);
+    padding: 5px;
+    border-right: 1.5px solid blue;
+}

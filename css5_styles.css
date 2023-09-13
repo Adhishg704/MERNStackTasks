@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(201, 201, 27);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.navbar-vertical {
+    margin-top: 30px;
+    display: inline-block;
+    width: 20%;
+    height: 10%;
+}
+
+.navbar-vertical ul {
+    list-style-type: none;
+}
+
+.navbar-vertical ul li {
+    padding: 5px;
+    margin-bottom: 9px;
+    background-color: white;
+    border-right: 15px solid black;
+    width: 55%;
+}
+
+.navbar-vertical ul li a {
+    text-decoration: none;
+}
+
+.body_text {
+    display: inline-block;
+    position: absolute;
+    margin-left: 100px;
+    width: 35%;
+    color: rgb(136, 19, 136);
+}
+
+#line {
+    color: rgb(136, 19, 136);
+    border-style: dotted; 
+}

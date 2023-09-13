@@ -1,0 +1,41 @@
+.container1 {
+    padding-bottom: 0px;
+    width: 15%;
+    border: 1px solid black;
+    position: fixed;
+    display: inline-block;
+}
+
+.navbar-vertical {
+    background-color: lightblue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-vertical ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar-vertical ul li {
+    list-style-type: none;
+    padding: 7px;
+}
+
+.navbar-vertical ul li:hover {
+    background-color: yellow;
+}
+
+.navbar-vertical ul li a {
+    text-decoration: none;
+    color: blue;
+}
+
+.navbar-vertical ul li a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin-left: 25%;
+}

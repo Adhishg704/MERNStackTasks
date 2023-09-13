@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task 5</title>
+    <style>
+        .prompt {
+            text-align: center;
+        }
+        tr {
+            border: 1px solid black;
+        }
+        td {
+            border: 1px solid black;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-left: 25%;
+        }
+        .container {
+            text-align: center;
+        }
+        .text {
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "text-align: center;">Registration form</h1>
+    <table>
+        <tr>
+            <td class = "prompt"><strong>First Name</strong></td>
+            <td><input type="text" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Last Name</strong></td>
+            <td><input type="text" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Email</strong></td>
+            <td><input type="email" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Password</strong></td>
+            <td><input type="password" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Re-enter Password</strong></td>
+            <td><input type="password" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Gender</strong></td>
+            <td>
+                <label for="male">Male</label> <input type="radio" id = "male" name = "gender">
+                <label for="female">Female</label> <input type="radio" id = "female" name = "gender">
+            </td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Age:</strong></td>
+            <td><input type="text" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Phone number</strong></td>
+            <td><input type="text" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Address</strong></td>
+            <td><textarea name="" id="" cols="30" rows="10" class = "text"></textarea></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>State</strong></td>
+            <td><input type="text" class = "text"></td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Country</strong></td>
+            <td>
+                <select name="" id="country">
+                    <option value="" disabled selected>Choose your country</option>
+                    <option value="English">India</option>
+                    <option value="Hindi">USA</option>
+                    <option value="Bengali">UK</option>
+                    <option value="Kannada">Japan</option>
+                    <option value="Telugu">Germany</option>
+                    <option value="Tamil">France</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class = "prompt"><strong>Languages known</strong></td>
+            <td>
+                <label for="English">English</label><input type="checkbox" id = "English" class = "text">
+                <label for="Kannada">Kannada</label><input type="checkbox" id = "Kannada" class = "text">
+                <label for="Hindi">Hindi</label><input type="checkbox" id = "Hindi" class = "text">
+                <label for="Telugu">Telugu</label><input type="checkbox" id = "Telugu" class = "text">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" id = "agreement">
+                <label for="agreement">Hereby I declare all the given details are true</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan = "2" style = "text-align: right;">
+                Login to <a href="https://ethnus.com/">Ethnus</a> website
+            </td>
+        </tr>
+    </table>
+    <div class = "container">
+        <button>Register</button>   
+    </div>
+</body>
+</html>
